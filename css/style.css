@@ -7,6 +7,24 @@ body, html{
     box-sizing: border-box;
 }
 
+h1,
+h3{
+    padding: 0;
+    margin: 0 0 5px;
+}
+
+p{
+    padding: 0;
+    margin: 0;
+}
+
+header,
+footer, 
+nav{
+    min-height: 100px;
+}
+
+
 header{
     background-color: #7fffd3;
 }
@@ -20,35 +38,25 @@ nav{
     flex-flow: row;
 }
 
-main{
-    background-color: yellow;
-    padding: 20px;
-    width: 70%;
-}
+    main{
+        background-color: yellow;
+        padding: 20px;
+        width: 70%;
+    }
 
-aside{
-    width: 30%;
-    padding: 0;
-    background-color: #F5F5DB;
-}
+        article{
+            background-color: #FEA500;
+            margin-bottom: 8px;
+        }
 
-article{
-    background-color: #FEA500;
-    margin-bottom: 8px;
-}
-
-
+    aside{
+        width: 30%;
+        padding: 0;
+        background-color: #F5F5DB;
+    }
 
 footer{
     background-color:#06FEFF;
-}
-
-
-
-h1,
-h3{
-    padding: 0;
-    margin: 0 0 5px;
 }
 
 .demoTitle{
@@ -73,15 +81,4 @@ header .demoTitle{
 footer .demoTitle{
     font-size: 18px;
     font-weight: 400;
-}
-
-p{
-    padding: 0;
-    margin: 0;
-}
-
-header,
-footer, 
-nav{
-    min-height: 100px;
 }
