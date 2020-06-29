@@ -33,27 +33,27 @@ nav{
     background-color: #FF6347;
 }
 
-.wrapper{
+main{
     display: flex;
     flex-flow: row;
 }
 
-    main{
-        background-color: yellow;
-        padding: 20px;
-        width: 70%;
+main > section{
+    background-color: yellow;
+    padding: 20px;
+    width: 70%;
+}
+
+    article{
+        background-color: #FEA500;
+        margin-bottom: 8px;
     }
 
-        article{
-            background-color: #FEA500;
-            margin-bottom: 8px;
-        }
-
-    aside{
-        width: 30%;
-        padding: 0;
-        background-color: #F5F5DB;
-    }
+aside{
+    width: 30%;
+    padding: 0;
+    background-color: #F5F5DB;
+}
 
 footer{
     background-color:#06FEFF;
